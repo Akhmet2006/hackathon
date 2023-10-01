@@ -294,6 +294,7 @@ video {
   text-decoration: none;
 }
 .nav {
+  text-align:center;
   position: fixed;
   top: 0px;
   width: 100%;
