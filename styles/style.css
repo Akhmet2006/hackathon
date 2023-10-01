@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&family=Prata&display=swap");
+body {
+  margin: 0px 0px 0px 150px;
+  padding: 0;
+  background-color: black;
+  padding-right: 150px;
+}
+.audio_line {
+  display: flex;
+  justify-content: space-around;
+}
+.audio img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.audio {
+  flex-direction: column;
+  width: 300px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 40px 40px 30px 30px;
+  margin-bottom: 180px;
+}
+.The_end {
+  margin-top: 150px;
+}
+.description_of_build {
+  background-color: rgb(22, 22, 22);
+  padding: 10px;
+}
+.talent_lvl p {
+  color: rgb(255, 255, 255);
+  font-weight: 200;
+}
+.talent_lvl:hover,
+.talent_icon:hover,
+.yellow_talent_icon:hover {
+  scale: 1.1;
+  transition: 500ms;
+}
+.talent_lvl {
+  width: 70px;
+  text-align: center;
+  border: 8px solid rgb(36, 36, 36);
+  border-radius: 200px;
+  background: linear-gradient(to top, rgb(66, 56, 0), orange);
+  transition: 500ms;
+}
+.talent_icon {
+  width: 500px;
+  background: linear-gradient(to right, rgb(29, 29, 29), rgb(12, 12, 12));
+  text-align: center;
+  transition: 500ms;
+}
+.talent_icon p {
+  margin-top: 35px;
+}
+.yellow_talent_icon p {
+  margin-top: 35px;
+}
+
+.yellow_talent_icon {
+  width: 500px;
+  background: linear-gradient(to right, rgb(66, 56, 0), orange);
+  text-align: center;
+  transition: 500ms;
+}
+.talent {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+#black_btn {
+  background-color: rgb(19, 19, 19);
+}
+.skill_btn p {
+  height: 48px;
+  margin-top: 17px;
+  margin-bottom: 0px;
+}
+.skill_btn {
+  background-color: rgb(49, 49, 49);
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 200px;
+}
+.Skill_build {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.Guide img {
+  width: 100%;
+  max-width: 80px;
+}
+.Guide {
+  margin-top: 200px;
+}
+.invis {
+  max-width: 130px;
+}
+.matches {
+  width: 200px;
+}
+.winrate {
+  width: 200px;
+}
+.wins {
+  width: 200px;
+}
+.block_1 img {
+  width: 100%;
+  max-width: 90px;
+  height: 70px;
+}
+.block_1 {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.invincible {
+  opacity: 0;
+}
+.chart {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+.line_wins {
+  width: 200px;
+  height: 10px;
+  background-color: lawngreen;
+}
+.line_matches {
+  width: 200px;
+  height: 10px;
+  background-color: crimson;
+}
+.line_height {
+  line-height: 2;
+}
+#Spells {
+  opacity: 0;
+}
+.items_matches_victories_winrate {
+  display: flex;
+  justify-content: space-between;
+}
+.chart {
+  background-color: rgb(20, 20, 20);
+}
+
+video {
+  max-width: 40%;
+  width: 100%;
+}
+.spell_history {
+  margin-left: 50px;
+}
+.Name_of_spell {
+  text-align: center;
+}
+.spell_and_video1 {
+  display: flex;
+  margin-top: 320px;
+  margin-bottom: 320px;
+}
+.spell_and_video {
+  display: flex;
+}
+.condition_info p {
+  margin-left: 50px;
+}
+.condition_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.spell_info1 {
+  margin-left: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 100px;
+}
+.spell_info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 40px;
+}
+.Spell {
+  margin-top: 100px;
+}
+.Spells {
+  margin: 200px 50px 0px 0px; /**/
+}
+.History p {
+  line-height: 2;
+}
+#hero {
+  opacity: 0;
+}
+#biography {
+  margin-bottom: 100px;
+  opacity: 0;
+}
+.biography {
+  margin: 200px 150px 0px 0px;
+}
+.lvl p {
+  line-height: 2.5;
+}
+.mana {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+  background: linear-gradient(to right, rgb(0, 217, 255), rgb(72, 228, 255));
+  border: 4px solid grey;
+}
+.hp {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  align-items: center;
+  background: linear-gradient(to right, rgb(0, 192, 0), rgb(19, 255, 19));
+  border: 4px solid grey;
+}
+.hero {
+  margin: 200px 0px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.atributes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+}
+.strength p,
+.dexterity p,
+.intelligence p {
+  font-weight: 600;
+}
+.strength img {
+  width: 100%;
+  border-radius: 2000px;
+  max-width: 40px;
+  border: 2px solid crimson;
+}
+
+.dexterity img {
+  width: 100%;
+  border-radius: 2000px;
+  max-width: 40px;
+  border: 2px solid green;
+}
+.intelligence img {
+  width: 100%;
+  border-radius: 2000px;
+  max-width: 40px;
+  border: 2px solid aqua;
+}
+.hero_info p {
+  font-size: 21px;
+}
+.hero_info {
+  line-height: 2;
+  padding-right: 100px;
+}
+.hero_atribute {
+  width: 100%;
+  max-width: 809.09px;
+  text-align: center;
+  background-color: rgba(0, 89, 255, 0.315);
+  margin-right: 50px;
+  border: 5px solid rgba(39, 39, 39, 0.445);
+}
+.hero_atribute p {
+  padding: 0;
+  margin: 0;
+}
+.hero_image {
+  width: 100%;
+  width: 800px;
+}
+.hero_info a {
+  text-decoration: none;
+}
+.nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  max-width: 1350px;
+}
+
+nav button {
+  margin: 0;
+  width: 300px;
+  height: 80px;
+  text-align: center;
+}
+.button a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+}
+.button {
+  margin: 0;
+  border: 0px solid;
+}
+nav {
+  display: flex;
+}
+h1,
+h2,
+h3,
+p,
+a {
+  color: white;
+  font-family: "Mooli", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+.text p {
+  font-size: 30px;
+}
+nav .button {
+  background-color: black;
+}
+.button {
+  text-decoration: none;
+  color: white;
+  transition: 500ms;
+}
+.button:hover {
+  color: black;
+  background-color: rgb(44, 44, 44);
+  transition: 500ms;
+}
+.abaddon_image img {
+  width: 100%;
+  max-width: 1100px;
+  opacity: 0.2;
+  border-radius: 30px;
+}
+.abaddon_image {
+  box-shadow: 0px 0px 0px 0px black;
+  text-align: center;
+  padding: 0px;
+}
+.text {
+  transform: translateY(400px);
+}
+p {
+  font-size: 22px;
+}
